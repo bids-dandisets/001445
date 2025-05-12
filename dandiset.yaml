@@ -3,6 +3,7 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.9/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -17,8 +18,8 @@ assetsSummary:
   measurementTechnique:
   - name: surgical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 71652112
-  numberOfFiles: 352
+  numberOfBytes: 71855668
+  numberOfFiles: 353
   numberOfSubjects: 4
   schemaKey: AssetsSummary
   species:
@@ -27,9 +28,32 @@ assetsSummary:
     schemaKey: SpeciesType
   variableMeasured:
   - ElectrodeGroup
-citation: Dong, QiWei (2025) In Vivo Electrochemical Impedance Spectroscopy - G3 (Version
-  draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001445/draft
+citation: Orazem, Mark; Cogan, Stuart; Otto, Kevin; Dong, QiWei (2025) In Vivo Electrochemical
+  Impedance Spectroscopy - G3 (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001445/draft
 contributor:
+- awardNumber: 1 UO1 NS 126052-01
+  identifier: https://ror.org/02qwkrw10
+  name: National Institutes of Health (NIH)
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- email: morazem@che.ufl.edu
+  identifier: 0000-0003-3668-7767
+  includeInCitation: true
+  name: Orazem, Mark
+  schemaKey: Person
+- email: stuart.cogan@utdallas.edu
+  identifier: 0000-0001-6316-3032
+  includeInCitation: true
+  name: Cogan, Stuart
+  schemaKey: Person
+- email: kevin.otto@bme.ufl.edu
+  identifier: 0000-0002-2317-6194
+  includeInCitation: true
+  name: Otto, Kevin
+  roleName:
+  - dcite:ContactPerson
+  schemaKey: Person
 - affiliation: []
   email: dongqiweialexander@gmail.com
   includeInCitation: true
@@ -44,15 +68,24 @@ description: "Representative EIS data of G3 electrodes implanted in 4 rats, for 
   100,\n11: 1, 12: 15, 13: 10, 14: 15, 15: 15, 16: 1, 17: 1, 18: 1, 19: 5, 20: 1,\n
   21: 5, 22: 20, 23: 20, 24: 100, 25: 10, 26: 10, 27: 15, 28: 10, 29: 1, 30: 1, \n
   31: 1, 32: 10"
+ethicsApproval: []
 id: DANDI:001445/draft
 identifier: DANDI:001445
+keywords:
+- In Vivo Impedance
+- microelectrode array
+- G3
 license:
 - spdx:CC0-1.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001445/versions/draft/assets/
 name: In Vivo Electrochemical Impedance Spectroscopy - G3
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.9
+studyTarget:
+- Imepdance change of ultramicroelectrode arrays in Vivo
 url: https://dandiarchive.org/dandiset/001445/draft
 version: draft
+wasGeneratedBy: []
